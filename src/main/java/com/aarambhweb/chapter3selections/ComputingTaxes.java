@@ -6,8 +6,8 @@ public class ComputingTaxes {
 
     /**
      * Income for single filler
-     * @param income
-     * @return tax amount
+     * @param income : tax payer income
+      * @return  tax amount: calculate tax amount
      */
     public static double singleTaxAmount(double income){
         double tax = 0.0;
@@ -32,8 +32,8 @@ public class ComputingTaxes {
 
     /**
      * Income for family joint filler
-     * @param income
-     * @return tax amount
+     * @param income : tax payer income
+     * @return  tax amount: calculate tax amount
      */
     public static double familyJointTaxAmount(double income){
         double tax = 0.0;
@@ -57,8 +57,8 @@ public class ComputingTaxes {
 
     /**
      * Income for famil separately filler
-     * @param income
-     * @return tax amount
+     * @param income : tax payer income
+      * @return  tax amount: calculate tax amount
      */
     public static double familySeparatelyTaxAmount(double income){
         double tax = 0.0;
@@ -82,8 +82,8 @@ public class ComputingTaxes {
 
     /**
      * Income for house hold filler
-     * @param income
-     * @return tax amount
+     * @param income : tax payer income
+     * @return  tax amount: calculate tax amount
      */
     public static double headOfHouseholdTaxAmount(double income){
         double tax = 0.0;
