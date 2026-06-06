@@ -43,7 +43,7 @@ public class ComputingTaxes {
         }else if(income > 16701 && income <= 67900){
             tax = 16700*0.10 + (income - 16700) * 0.15;
         }else if(income >67901 && income <= 137050) {
-            tax = tax = 16700 * 0.10 + ((67900 - 16700) * 0.15) + ((income -67900)  * 0.25);
+            tax =  16700 * 0.10 + ((67900 - 16700) * 0.15) + ((income -67900)  * 0.25);
         }else if(income >137051 && income <= 208850) {
             tax = 16700 * 0.10 + ((67900 - 16700) * 0.15) + ((137050 -67900)  * 0.25) + ((income-137050) * 0.28);
         }else if(income >208851 && income <= 372950) {
